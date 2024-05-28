@@ -1,0 +1,1 @@
+# Anolis8.6-install-oracle12c
