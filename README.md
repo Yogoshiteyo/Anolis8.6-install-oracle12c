@@ -106,63 +106,72 @@ export LD_LIBRARY_PATH=$ORACLE_HOME/lib:/usr/lib
 ```
 ## 2. 开始安装oracle12c
 ### 2.1 进入图形界面，打开控制台
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/37cbab75-4ba3-48cc-98b4-36d9c696102b)
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/323cfdc6-9ea7-4d1f-a690-82d01c0a91f0)
+
 运行安装程序开始安装
 ```bash
 /software/database/runInstaller
 ```
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/fdd7dd6c-39a4-4c70-9480-80e932bd1e50)
-
-###2.2 
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/1823d607-16a0-42ab-8e23-cc11a94dd6d3)
-
-### 2.3 
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/38fdc516-c972-42a1-8594-da480af18e86)
-
-### 2.4 
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/0b73fafe-1a82-44a3-aab5-0eb1d0fda19f)
-
+### 2.2 
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/9c06dbf4-9d67-4e4f-80f6-91b9e7823188)
+### 2.3
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/cb2d3774-95b6-4beb-946c-9147c2fbfb30)
+### 2.4
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/6bbe9069-f0b0-46b9-bd57-c7b8944e2737)
 ### 2.5
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/cafa462f-fb6c-41d0-b5d8-22fb9b8ea704)
-
-### 2.6 
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/3f6dc125-bc78-43aa-aad1-e56eae5fcb22)
-
-### 2.7 
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/9b64066e-e3e4-4efc-bb47-2b23bfcc7a47)
-
-### 2.8 
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/a1e48ed0-dec2-458e-b108-8fc2dbdf71eb)
-
-### 2.9 
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/656f8d57-9e0f-411d-a981-fa9744b29060)
-
-### 2.10 
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/a8e25660-2203-43b1-b7d8-9a5f3456b19b)
-
-### 2.11 
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/43754572-3809-4185-9b3c-9e5c16bbef21)
-
-### 2.12 
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/c3057c19-3b8a-4b14-8055-2022d3dae240)
-
-### 2.13 
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/b9f68a70-1fc5-4471-98fc-7032b08f6652)
-
-### 2.14 
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/ae72d3d6-b6a7-42a1-8012-6d54ca3fcc07)
-
-### 2.15 
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/df4fc512-d374-4ddb-9a9c-71769b620137)
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/c9d9325d-1239-4d76-9c97-c6087c4d7f76)
-
-### 2.16 
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/d2efd655-f8d3-4c61-823d-cb3f60a04c82)
-
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/8652cba4-9c34-4f8a-a7c1-7f7dcf38cc1c)
+### 2.6
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/a552891d-dfae-4c71-a112-d771a5078e18)
+### 2.7
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/4bd161e6-e057-4974-993c-2184e9d8d0a2)
+### 2.8
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/3430eaa2-2028-453d-bfa6-8dc9738ad57c)
+### 2.9
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/c8a5736c-0b21-4af6-811a-97f45860b387)
+### 2.10
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/38f78a04-cb0d-4568-a8de-1ece256ca978)
+### 2.11
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/8100524f-e07d-49f3-851c-f6d59284aa59)
+### 2.12
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/e452589a-a5c3-4de7-b7dd-55aa70321658)
+### 2.13
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/006dbcdb-1f36-4185-abb8-7bd5907bea91)
+### 2.14
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/b100f8e4-d878-4cc9-b4c9-bc363d41aef1)
+### 2.15
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/b493e24d-fcf7-4b8f-951b-9a486a5d5b16)
+### 2.16
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/77d236cf-6b67-4e1a-8ee7-78c26d30d09f)
 ### 2.17
-
-
-
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/ea54e3e8-0dc4-46cb-9a70-4e5cf5b8021b)
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/b7d297cd-b97f-41ca-923d-d6162760a1d1)
+### 2.18
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/aa9078be-4ef1-4535-8b72-4a9fdebff605)
+### 2.19
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/c7bcf2de-05a9-4b62-80c2-81ba9a11087c)
+### 2.20
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/c9f1a960-00ca-42e0-ba90-f28baa293c21)
+### 2.21
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/e6546b7e-867d-45e1-9de2-3ef8934b5d86)
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/e781963c-27ab-4901-8fd8-3bf96bf415b5)
+### 2.22
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/f009bf0f-daa2-4213-9067-78a8ad46e0c2)
+### 2.23
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/01c97bd3-5c6f-4f99-b198-b01e3815fcc0)
+### 2.24
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/66e92a6f-8d6d-4020-9f19-6e6a88c1aabb)
+### 2.25
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/7eafb8e1-2d0e-437c-95b6-6f44689a4192)
+### 2.26
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/894f1c78-7a08-40c5-b0de-ab7a2e6d28de)
+### 2.27
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/2c6a8f0c-2a2d-4948-8f55-8f7bf773cba0)
+### 2.28
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/ce328100-8dbc-485a-b043-b972907c7f0c)
+### 2.29
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/4e7f7c68-023f-42b1-b7bd-f49e75cd6485)
+### 2.30
+![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/7003775b-659a-49e5-afc1-8afb4c80c44a)
 
 
 
