@@ -105,9 +105,7 @@ export NLS_LANG=AMERICAN_AMERICA.AL32UTF8
 export LD_LIBRARY_PATH=$ORACLE_HOME/lib:/usr/lib
 ```
 ## 2. 开始安装oracle12c
-### 2.1 进入图形界面，打开控制台
-![image](https://github.com/Yogoshiteyo/Anolis8.6-install-oracle12c/assets/58699906/323cfdc6-9ea7-4d1f-a690-82d01c0a91f0)
-
+### 2.1 登录oracle用户，进入图形界面，打开控制台
 运行安装程序开始安装
 ```bash
 /software/database/runInstaller
