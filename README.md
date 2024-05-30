@@ -111,3 +111,143 @@ export ORACLE_SID=orcl
 export NLS_LANG=AMERICAN_AMERICA.AL32UTF8
 export LD_LIBRARY_PATH=$ORACLE_HOME/lib:/usr/lib
 ```
+### 2.10 修改安装响应文件
+```
+*******************************************************************
+
+安装响应文件内容已修改。
+
+*******************************************************************
+
+用户未选择默认路径
+dbinstall.rsp已修改
+
+*******************************************************************
+
+dbca.rsp 文件已修改。
+
+```
+### 2.11 安装数据库软件
+```
+开始安装 Oracle 数据库...
+开始安装：
+正在启动 Oracle Universal Installer...
+
+检查临时空间: 必须大于 500 MB。   实际为 73586 MB    通过
+检查交换空间: 必须大于 150 MB。   实际为 16383 MB    通过
+准备从以下地址启动 Oracle Universal Installer /tmp/OraInstall2024-05-30_03-15-55PM. 请稍候...\n
+Oracle 数据库安装完成。
+开始检查安装日志文件...
+grep: /home/data/app/oracle/oraInventory/logs/silentInstall*.log: 没有那个文件或目录
+[WARNING] [INS-32055] 主产品清单位于 Oracle 基目录中。
+   操作: Oracle 建议将此主产品清单放置在 Oracle 基目录之外的位置中。
+可以在以下位置找到本次安装会话的日志:
+ /home/data/app/oracle/oraInventory/logs/installActions2024-05-30_03-15-55PM.log
+grep: /home/data/app/oracle/oraInventory/logs/silentInstall*.log: 没有那个文件或目录
+grep: /home/data/app/oracle/oraInventory/logs/silentInstall*.log: 没有那个文件或目录
+grep: /home/data/app/oracle/oraInventory/logs/silentInstall*.log: 没有那个文件或目录
+grep: /home/data/app/oracle/oraInventory/logs/silentInstall*.log: 没有那个文件或目录
+grep: /home/data/app/oracle/oraInventory/logs/silentInstall*.log: 没有那个文件或目录
+grep: /home/data/app/oracle/oraInventory/logs/silentInstall*.log: 没有那个文件或目录
+Oracle Database 12c 的 安装 已成功。 志文件 -
+请查看 '/home/data/app/oracle/oraInventory/logs/silentInstall2024-05-30_03-15-55PM.log' 以获取详细资料。
+
+```
+### 2.12 以 root 用户的身份执行以下脚本
+```
+Successfully Setup Software.
+安装成功。
+以 root 用户的身份执行以下脚本：
+1. /home/data/app/oracle/oraInventory/orainstRoot.sh
+2. /home/data/app/oracle/product/12.1.0/dbhome_1/root.sh
+执行 /home/data/app/oracle/oraInventory/orainstRoot.sh
+更改权限/home/data/app/oracle/oraInventory.
+添加组的读取和写入权限。
+删除全局的读取, 写入和执行权限。
+
+更改组名/home/data/app/oracle/oraInventory 到 oinstall.
+脚本的执行已完成。
+执行 /home/data/app/oracle/product/12.1.0/dbhome_1/root.sh
+Check /home/data/app/oracle/product/12.1.0/dbhome_1/install/root_oracledb_2024-05-30_15-18-53.log for the output of root script
+```
+### 2.13 开始配置监听
+```
+正在对命令行参数进行语法分析:
+参数"silent" = true
+参数"responsefile" = /software/database/response/netca.rsp
+完成对命令行参数进行语法分析。
+Oracle Net Services 配置:
+完成概要文件配置。
+Oracle Net 监听程序启动:
+    正在运行监听程序控制:
+      /home/data/app/oracle/product/12.1.0/dbhome_1/bin/lsnrctl start LISTENER
+    监听程序控制完成。
+    监听程序已成功启动。
+监听程序配置完成。
+成功完成 Oracle Net Services 配置。退出代码是0
+\n
+监听创建完成。
+
+```
+### 2.14 询问是否创建实例
+```
+是否需要创建实例？(y/n): y
+开始建库...
+复制数据库文件
+1% 已完成
+3% 已完成
+11% 已完成
+18% 已完成
+26% 已完成
+37% 已完成
+正在创建并启动 Oracle 实例
+40% 已完成
+45% 已完成
+50% 已完成
+55% 已完成
+56% 已完成
+60% 已完成
+62% 已完成
+正在进行数据库创建
+66% 已完成
+70% 已完成
+73% 已完成
+85% 已完成
+96% 已完成
+100% 已完成
+有关详细信息, 请参阅日志文件 "/home/data/app/oracle/cfgtoollogs/dbca/orcl/orcl.log"。
+静默建库已完成。
+
+```
+### 2.15 添加开机自启
+```
+Created symlink /etc/systemd/system/multi-user.target.wants/oracle.service → /etc/systemd/system/oracle.service.
+已添加开机自启
+```
+### 2.16 输出安装信息
+```
+*******************************************************************
+
+服务器信息
+
+*******************************************************************
+
+主机名：oracledb
+本机IP：192.168.3.68 192.168.122.1
+oracle用户密码：oracle
+
+*******************************************************************
+
+数据库信息
+
+*******************************************************************
+
+GDBNAME：orcl
+SID:orcl
+PORT:1521
+sys用户密码：oracle
+system用户密码：oracle
+字符集：ZHS16GBK
+
+*******************************************************************
+```
