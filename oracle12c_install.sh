@@ -215,7 +215,7 @@ add_ttc(){
     cd /software/database/stage/Components/oracle.jdk/1.6.0.75.0/1/DataFiles/
 
     # 解压 filegroup2.jar
-    unzip -o filegroup2.jar -d filegroup2_extracted
+    unzip -o filegroup2.jar -d filegroup2_extracted >/dev/null 2>&1
 
     # 创建文件夹
     mkdir -p /software/database/stage/Components/oracle.jdk/1.6.0.75.0/1/DataFiles/filegroup2_extracted/jdk/jre/lib/fonts/fallback
@@ -257,7 +257,7 @@ fi
 
     # 重新打包 filegroup2.jar
     cd filegroup2_extracted
-    sudo zip -r ../filegroup2.jar *
+    sudo zip -r ../filegroup2.jar * >/dev/null 2>&1
 
     # 赋予文件权限
     sudo chmod 755 ../filegroup2.jar
