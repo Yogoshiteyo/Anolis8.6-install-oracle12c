@@ -1,11 +1,8 @@
 # Anolis8.6GA（龙蜥8.6）安装oracle12c（12.1.0.2.0）
 ## 1. 配置安装环境
-### 1.1 下载脚本文件
 ```bash
-wget xxx && chmod +x && ./
+curl -O https://raw.githubusercontent.com/Yogoshiteyo/Anolis8.6-install-oracle12c/main/oracle12c_install.sh && chmod +x oracle12c_install.sh && ./oracle12c_install.sh
 ```
-### 1.2 为脚本赋予可执行权限
-### 1.3 执行脚本
 ## 2. 脚本所执行的操作
 ### 2.1 关闭selinux，使防火墙放行1521端口
 ```
