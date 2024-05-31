@@ -606,6 +606,7 @@ ask_create_instance() {
     read -p "是否需要创建实例？(y/n): " create_instance
     if [[ $create_instance =~ ^[Yy]$ ]]; then
         install_dbca
+        echo_db_info
     else
         echo "不创建实例。"
     fi
@@ -690,7 +691,7 @@ main() {
     ask_create_instance
     auto_startup_oracle
     echo_server_info
-    echo_db_info
+    #echo_db_info
     echo "脚本执行完成。"
 }
 
