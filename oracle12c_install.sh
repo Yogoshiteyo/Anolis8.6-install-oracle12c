@@ -154,7 +154,7 @@ extract_installation_packages() {
     # 查找安装包
     install_packages=($(find / -name "linuxamd64_12c_database_*" -o -name "V46095-01_*"))
     if [ ${#install_packages[@]} -eq 0 ]; then
-        echo "错误：安装包不存在，请下载安装包。
+        echo "错误：安装包不存在，请下载安装包。"
         
         #https://updates.oracle.com/Orion/Services/download/p13390677_112040_Linux-x86-64_1of7.zip?aru=16716755&patch_file=p13390677_112040_Linux-x86-64_1of7.zip
         #https://updates.oracle.com/Orion/Services/download/p13390677_112040_Linux-x86-64_2of7.zip?aru=16716755&patch_file=p13390677_112040_Linux-x86-64_2of7.zip
